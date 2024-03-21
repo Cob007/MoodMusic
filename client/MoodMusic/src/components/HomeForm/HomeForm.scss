@@ -59,6 +59,9 @@
         padding: 6px;
         border: 1px solid $mood-brown;
         border-radius: 10px;
+        font-family: "Avenir";
+        font-size: 1rem;
+
     }
 
     &__textarea::placeholder {
@@ -67,6 +70,23 @@
     }
 }
 
+.bioMood {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    &__dropdown {
+        height: 40px;
+        margin: 8px 0;
+        padding: 8px;
+        border: 1px solid $mood-brown;
+        background-color: $mood-gray;
+        border-radius: 10px;
+        font-size: 16px;
+        outline: none;
+
+
+    }
+}
 
 
 .signUpForm {
