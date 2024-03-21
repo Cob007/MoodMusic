@@ -1,29 +1,31 @@
-import React from 'react'
-import logo from "../../assets/images/logo.png"
+import React from 'react';
+import "./HomeForm.scss";
+import logo from "../../assets/images/logo.png";
 
 const HomeForm = () => {
     return (
         <section className='homeForm'>
-            <div>
+            <div className='logoDiv'>
                 <img src={logo} alt="MoodMusic Logo" />
             </div>
-            <div>
+            <div className='heroText'>
                 <h1>Music for all Moods</h1>
                 <p>sign up to discover</p>
             </div>
+
             <form className='signUpForm' action="">
-                <div>
+                <div className='inputDiv'>
                     <label htmlFor="">Name</label>
-                    <input type="text" placeholder='Enter your name' />
+                    <input className='nameInput' type="text" placeholder='Enter your name' />
                 </div>
 
-                <div>
+                <div className='bioDiv'>
                     <label htmlFor="">Bio</label>
                     <input type="text" placeholder='A few words about you' />
                 </div>
 
-                <div>
-                    <button>Find Your Mood</button>
+                <div className='buttonDiv'>
+                    <button className='button'>Find Your Mood</button>
                 </div>
 
             </form>
