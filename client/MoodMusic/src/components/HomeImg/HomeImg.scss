@@ -1,0 +1,15 @@
+@import "../../styles/partials/variables";
+
+
+.homeImgComponent {
+    border-radius: 1px solid black;
+    width: 50vw;
+    height: 80vh;
+}
+
+.homeImg {
+    width: 50vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
