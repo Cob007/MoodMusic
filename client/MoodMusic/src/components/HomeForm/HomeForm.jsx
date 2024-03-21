@@ -4,21 +4,21 @@ import logo from "../../assets/images/logo.png";
 
 const HomeForm = () => {
 
-    const form = document.querySelector('.signUpForm');
-    const nameInput = document.querySelector('.nameInput');
-    const bioInput = document.querySelector('.bioDiv input');
+    // const form = document.querySelector('.signUpForm');
+    // const nameInput = document.querySelector('.nameInput');
+    // const bioInput = document.querySelector('.bioDiv input');
 
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
+    // form.addEventListener('submit', function (event) {
+    //     event.preventDefault();
 
-        const name = nameInput.value;
-        const bio = bioInput.value;
+    //     const name = nameInput.value;
+    //     const bio = bioInput.value;
 
-        console.log('Name:', name);
-        console.log('Bio:', bio);
+    //     console.log('Name:', name);
+    //     console.log('Bio:', bio);
 
-        form.reset();
-    });
+    //     form.reset();
+    // });
 
     return (
         <section className='homeForm'>
@@ -41,6 +41,17 @@ const HomeForm = () => {
                     <input type="text" placeholder='A few words about you' />
                 </div>
 
+                <div>
+                    <label htmlFor="">select your Mood</label>
+                    <select className='dropDown' name="moods" id="moods">
+                        <option value="hapy">Happy</option>
+                        <option value="sad">Sad</option>
+                        <option value="mad">Mad</option>
+                    </select>
+                </div>
+
+
+
                 <div className='buttonDiv'>
                     <button className='button'>Find Your Mood</button>
                 </div>
@@ -52,3 +63,5 @@ const HomeForm = () => {
 }
 
 export default HomeForm
+
+
