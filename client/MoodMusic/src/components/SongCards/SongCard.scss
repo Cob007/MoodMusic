@@ -1,0 +1,28 @@
+@import "../../styles/partials/variables";
+
+.songCard {
+    margin: 30px 10px 30px 10px;
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid $mood-red;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px $mood-gray;
+}
+
+.songImgContainer {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 4px;
+}
+
+.songImg {
+    padding: 8px;
+    border-radius: 4px;
+    width: 30vw;
+    height: 30vh;
+    object-fit: contain;
+}
+
+.songInfo {
+    padding-right: 10px;
+}

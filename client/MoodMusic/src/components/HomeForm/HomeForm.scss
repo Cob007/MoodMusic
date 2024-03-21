@@ -74,6 +74,20 @@
     flex-direction: column;
 }
 
+.dropDown {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #d10303;
+    background-color: green;
+    border-radius: 4px;
+    outline: none;
+}
+
+.dropDown:hover {
+    border-color: blue;
+}
+
 .button {
     width: 100%;
     background-color: $mood-red;

@@ -37,6 +37,14 @@ const HomeForm = () => {
         <div className="buttonDiv">
           <button className="button">Find Your Mood</button>
         </div>
+<div>
+                    <label htmlFor="">select your Mood</label>
+                    <select className='dropDown' name="moods" id="moods">
+                        <option value="hapy">Happy</option>
+                        <option value="sad">Sad</option>
+                        <option value="mad">Mad</option>
+                    </select>
+                </div>
       </form>
     </section>
   );
