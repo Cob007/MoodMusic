@@ -1,15 +1,9 @@
 @import "../../styles/partials/variables";
 
+.img-container {
 
-.homeImgComponent {
-    border-radius: 1px solid black;
-    width: 50vw;
-    height: 80vh;
-}
-
-.homeImg {
-    width: 50vw;
-    height: 80vh;
-    object-fit: cover;
-    border-radius: 20px;
+    &__img{
+        width: 90%;
+        padding: 0 32px;
+    }
 }

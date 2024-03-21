@@ -6,8 +6,13 @@ import HomeForm from '../../HomeForm/HomeForm'
 const HomePage = () => {
     return (
         <main className='homePage'>
-            <HomeImg />
-            <HomeForm />
+            <div className='homePage__img'>
+                <HomeImg />
+            </div>
+            <div className='homePage__form'>
+                <HomeForm />
+            </div>
+           
         </main>
     )
 }
