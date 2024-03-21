@@ -24,5 +24,9 @@
 }
 
 .songInfo {
-    padding-right: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    height: 132px;
+    background-color: rgb(197, 153, 153);
+    color: $mood-DarkBrown;
 }
