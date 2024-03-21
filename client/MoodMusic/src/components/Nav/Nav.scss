@@ -1,0 +1,29 @@
+@import "../../styles/partials/variables";
+
+.nav {
+    border: 1px solid $mood-gray;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: hsl(11, 88.1%, 33.1%);
+}
+
+.logoSongPage {
+    margin-left: 15px;
+}
+
+.listParent {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.listItem {
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+}

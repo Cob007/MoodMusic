@@ -1,0 +1,9 @@
+@import "../../styles/partials/variables";
+
+.img-container {
+
+    &__img{
+        width: 90%;
+        padding: 0 32px;
+    }
+}
