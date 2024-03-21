@@ -3,6 +3,23 @@ import "./HomeForm.scss";
 import logo from "../../assets/images/logo.png";
 
 const HomeForm = () => {
+
+    const form = document.querySelector('.signUpForm');
+    const nameInput = document.querySelector('.nameInput');
+    const bioInput = document.querySelector('.bioDiv input');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const name = nameInput.value;
+        const bio = bioInput.value;
+
+        console.log('Name:', name);
+        console.log('Bio:', bio);
+
+        form.reset();
+    });
+
     return (
         <section className='homeForm'>
             <div className='logoDiv'>
