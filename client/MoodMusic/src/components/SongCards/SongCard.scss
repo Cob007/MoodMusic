@@ -30,3 +30,12 @@
     background-color: rgb(197, 153, 153);
     color: $mood-DarkBrown;
 }
+
+.playButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    background-color: $mood-brown;
+    margin: 0;
+}
